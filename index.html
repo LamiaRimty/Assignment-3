@@ -219,13 +219,103 @@
             </div>
         </div>
 
+        <div id="reserveform" class="modal modal fade"role="dialog">
+            <div class="modal-dialog modal-lg" role="document">
+              <div class="modal-content">
+                  <div class="col-12">
+                <div class="modal-header">
+                  <h5 class="modal-title">Reserve a Table</h5>
+                  <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+                    <span aria-hidden="true">&times;</span>
+                  </button>
+                </div>
+                <div class="modal-body">
+                 <form>
+          
+                     <div class="form-group row">
+                        <label for="GuestNumber" class="col-12 col-md-3 col-form-label">Number of Guests</label>
+                        <div class="col-5 col-md-3">
+                            <div class="form-check form-check-inline radio-container" >
+                        
+                             <input class="form-check-input" type="radio" name="one" id="one" value="option1">
+                                <label class="form-check-label" for="one" >1</label>
+                        
+                             <input class="form-check-input" type="radio" name="two" id="two" value="option2">
+                                <label class="form-check-label" for="two">2</label>
+                            
+                             <input class="form-check-input" type="radio" name="three" id="three" value="option3">
+                                <label class="form-check-label" for="three">3</label>
+                            
+                             <input class="form-check-input" type="radio" name="four" id="four" value="option4">
+                                <label class="form-check-label" for="four">4</label>
+                               
+                             <input class="form-check-input" type="radio" name="five" id="five" value="option5">
+                                <label class="form-check-label" for="five">5</label>
+
+                                
+                             <input class="form-check-input" type="radio" name="six" id="six value="option6">
+                                <label class="form-check-label" for="six">6</label>
+    
+                            </div>
+                        </div>
+
+                    </div>
+
+
+                    <div class="form-group row">
+                        <label for="SectionNumber" class="col-12  col-md-3 col-form-label">Section</label>
+                           <div class="col-5 col-md-3">
+                                <div class="btn-group btn-group-toggle" data-toggle="buttons">
+
+                                   <label class="btn btn-success active">
+                                    <input type="radio" name="options" id="option1" autocomplete="off" checked>Non-Smoking
+                                  </label>
+                                  <label class="btn btn-danger">
+                                    <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
+                                  </label>
+                                </div>
+                            </div>
+                            
+                    </div>
+
+                    <div class="form-group row">
+                        <label for="ReserveTime" class="col-12 col-md-3 col-form-label">Date and Time</label>
+                     <div class="col-5 col-md-3">
+                         <!--   <input class="datepicker" data-date-format="mm/dd/yyyy"> -->
+                       <input type="date" class="form-control" id="date" name="date" placeholder="Date">
+                     </div>
+                     <div class="col-5 col-md-3"> 
+                         <input type="time" class="form-control" id="time" name="time" placeholder="Time">
+                      </div>
+                  
+
+                  </div>
+                  <div class="offset-md-3 col-md-10">
+                    <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+                    <button type="button" class="btn btn-primary">Reserve</button>
+                    </div>
+                 </form>
+                  
+                </div>
+    
+              </div>
+            </div>
+            </div>
+          </div>
         
        <!-- <div class="row row-content align-items-center" id="reserveform"> -->
-        <div id="reserveform" class="modal fade" role="dialog" >
-            <div class="modal-dialog modal-lg" role="content">
+     <!--   <div id="reserveform" class="modal fade" role="dialog" >
+             <div class="modal-dialog modal-lg" role="document">
+               <div class="content">
+                
+               </div>  
+            
+            </div>
+        </div> 
+
            
-               <div class="col-9">
-                   <div class="offset-col-sm" ></div>
+               <div class="col-9 ">
+                   <div class="offset-col-sm" >
                      <div class="card">
                       <h3 class="card-header bg-warning text-white">Reserve a Table</h3>
                         <form action="" style="  margin:0px;  padding: 10px; ">
@@ -267,7 +357,7 @@
                                         <input type="radio" name="options" id="option1" autocomplete="off" checked>Non-Smoking
                                       </label>
                                       <label class="btn btn-danger">
-                                        <input type="radio" name="options" id="option2" autocomplete="off">Smoking 
+                                        <input type="radio" name="options" id="option2" autocomplete="off"> Smoking
                                       </label>
                                     </div>
                                 </div>
@@ -277,7 +367,7 @@
                         <div class="form-group row">
                               <label for="ReserveTime" class="col-12 col-md-2 col-form-label">Date and Time</label>
                            <div class="col-5 col-md-3">
-                               <!--   <input class="datepicker" data-date-format="mm/dd/yyyy"> !-->
+                               <!--   <input class="datepicker" data-date-format="mm/dd/yyyy"> -->
                              <input type="date" class="form-control" id="date" name="date" placeholder="Date">
                            </div>
                            <div class="col-5 col-md-3"> 
@@ -297,10 +387,8 @@
                     </form>
                     </div>
                 </div>
-            </div>
-           </div>
-        </div>
-
+            </div> -->
+          
     </div>
 
     
